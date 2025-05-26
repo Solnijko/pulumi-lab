@@ -1,5 +1,5 @@
-name: pass-gen-test
-description: Testing password generation and passing it between stacks
+name: pulumi-lab
+description: Local pulumi lab
 runtime:
   name: python
   options:
