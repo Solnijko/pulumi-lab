@@ -1,0 +1,11 @@
+name: pass-gen-test
+description: Testing password generation and passing it between stacks
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-python
